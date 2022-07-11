@@ -1,9 +1,9 @@
 {
   "routes": [
     {
-      "route": "/",
+      "route": "/*",
       "headers": {
-        "cache-control": "must-revalidate, max-age=600000"
+        "cache-control": "max-age=600000"
       }
     }
   ]
