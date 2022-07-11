@@ -3,7 +3,7 @@
     {
       "route": "/",
       "headers": {
-        "cache-control": "must-revalidate, max-age=600"
+        "cache-control": "must-revalidate, max-age=600000"
       }
     }
   ]
