@@ -8,7 +8,7 @@
     },
     {
       "route": "/members",
-      "allowedRoles": ["authenticated, members"],
+      "allowedRoles": ["authenticated", "members"],
       "headers": {
           "Cache-Control": "no-store"
       }
