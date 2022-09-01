@@ -1,12 +1,6 @@
 {
   "routes": [
     {
-      "route": "/*",
-      "headers": {
-        "cache-control": "max-age=600000"
-      }
-    },
-    {
       "route": "/members",
       "allowedRoles": ["authenticated", "members"],
       "headers": {
