@@ -5,6 +5,13 @@
       "headers": {
         "cache-control": "max-age=600000"
       }
+    },
+    {
+      "route": "/members",
+      "allowedRoles": ["authenticated, members"],
+      "headers": {
+          "Cache-Control": "no-store"
+      }
     }
   ],
   "networking": {
@@ -17,12 +24,5 @@
     "allowedForwardedHosts": [
       "vanilla-swa-cdn-edc7h5dwe0g7ftdf.z01.azurefd.net"
     ]
-  },
-  {
-    "route": "/members",
-    "allowedRoles": ["authenticated, members"],
-    "headers": {
-        "Cache-Control": "no-store"
-    }
-}
+  }
 }
