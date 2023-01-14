@@ -7,16 +7,5 @@
           "Cache-Control": "no-store"
       }
     }
-  ],
-  "networking": {
-    "allowedIpRanges": ["AzureFrontDoor.Backend"]
-  },
-  "forwardingGateway": {
-    "requiredHeaders": {
-      "X-Azure-FDID" : "0e183c39-03b5-4c2d-ab74-d8b6be0ce0b9"
-    },
-    "allowedForwardedHosts": [
-      "vanilla-swa-cdn-edc7h5dwe0g7ftdf.z01.azurefd.net"
-    ]
-  }
+  ]
 }
