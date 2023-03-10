@@ -7,5 +7,10 @@
           "Cache-Control": "no-store"
       }
     }
-  ]
+  ],
+  "forwardingGateway": {
+    "allowedForwardedHosts": [
+      "20.59.39.150"
+    ]
+  }
 }
